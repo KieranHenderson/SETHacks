@@ -1,0 +1,95 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+
+.anchorPane{
+	-fx-background-color:rgb(37,36,34);
+	-fx-border-style:none;
+}
+
+.findButton{
+	-fx-focus-color: transparent;
+	-fx-background-radius: 100;
+	-fx-background-color: rgb(37,36,34);
+	-fx-border-radius:100;
+	-fx-border-width: 2px;
+	-fx-border-color: rgb(234,89,31); 
+	-fx-text-fill: rgb(234,89,31);
+	-fx-font-size: 4em;
+}
+
+.findButton:pressed{
+	-fx-background-color:rgb(234,89,31);
+	-fx-border-style:none;
+	-fx-text-fill: rgb(37,36,34);
+}
+
+.sideButton{
+	-fx-focus-color: transparent;
+	-fx-background-radius:0.0;
+	-fx-background-color: rgb(37,36,34);
+	-fx-border-radius:0;
+	-fx-border-width: 1px;
+	-fx-border-color: rgb(234,89,31);
+	-fx-text-fill: rgb(234,89,31);
+}
+
+.sideButton:pressed{
+	-fx-background-color:rgb(234,89,31);
+	-fx-border-style:none;
+	-fx-text-fill: rgb(37,36,34);
+}
+
+.sideButton-left{
+	-fx-alignment: center-left;
+}
+
+.sideButton-right{
+	-fx-alignment: center-right;
+}
+
+.hbox{
+	-fx-background-color:transparent;
+	-fx-spacing:1em;
+}
+
+.split-pane:horizontal > .split-pane-divider {
+   -fx-background-color: transparent;
+}
+.split-pane:vertical > .split-pane-divider {
+   -fx-background-color: transparent;
+}
+
+#text{
+	-fx-fill:rgb(234,89,31);
+	-fx-font-size: 24px;
+}
+
+#hbox{
+	-fx-padding: 5px;
+	-fx-background-color:transparent;
+	-fx-spacing:2em;
+}
+
+#hyperlink{
+	-fx-font-size: 24px;
+	-fx-text-fill: rgb(234,89,31);
+}
+
+#hyperlink:focused,
+#hyperlink:pressed,
+#hyperlink:hover{
+	-fx-text-fill: rgb(234,89,31);
+	-fx-underline: false;
+	-fx-focus-color: transparent;
+
+}
+
+.scrollpane{
+	-fx-background-color:rgb(64,61,57);
+	-fx-border-style:none;
+}
+
+.vbox{
+	-fx-background-color:rgb(64,61,57);
+	-fx-spacing:2em;
+}
